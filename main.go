@@ -2,11 +2,15 @@ package main
 
 import (
 	"fmt"
+
+	vr "github.com/idiegocs/go_intro/variables"
 )
 
 func main() {
-	fmt.Println("Hello, World GO!!!!!")
-	fmt.Println("This is a simple Go program.")
-	fmt.Println("It prints messages to the console.")
+
+	vr.ExecuteVariables()
+
+	fmt.Println("Principal Hello, World GO!!!!!")
+
 
 }
